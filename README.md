@@ -158,6 +158,3 @@ This platform's machine learning and data analysis capabilities produce several 
 - **Expansion of Chatbot Capabilities**: Implementing more advanced NLP techniques.
 - **Recommendation System**: For personalized health advice.
 - **Community Features**: For user support and experience sharing.
-
-## License 📄
-This project is licensed under the MIT License. See the `LICENSE.md` file for more details.
