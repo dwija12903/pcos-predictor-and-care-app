@@ -116,6 +116,8 @@ This platform's machine learning and data analysis capabilities produce several 
    ```bash
    PORT=4000
    MONGODB_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>?retryWrites=true&w=majority
+   EMAIL_ADDRESS = your-email@gmail.com
+   EMAIL_APP_PASSWORD = your-app-password
    ```
 
 4. **Run the Backend Server**  
