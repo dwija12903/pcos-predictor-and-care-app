@@ -67,7 +67,7 @@ The platform is built using a microservices architecture, ensuring flexibility, 
    - Protected routes for authenticated users only.
 
 ### Analysis 📊
-This platform's machine learning and data analysis capabilities produce several valuable insights and real-world applications:
+This platform's machine learning and data analysis capabilities produce several valuable insights and real-world applications.[View all the Analysis here!](https://nbviewer.org/github/dwija12903/pcos-predictor-and-care-app/blob/main/analysis/pcos_prediction.ipynb)
 
 1. **Identification of Key Factors**:
    - The model identifies key features strongly associated with PCOS diagnosis, such as:
