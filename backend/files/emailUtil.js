@@ -6,13 +6,13 @@ async function sendEmail(to, subject, html) {
         port: 465,      // Port for SMTP (usually 465)
         secure: true,   // Use SSL
         auth: {
-            user: 'dwija1209@gmail.com', // Your email
-            pass: 'bffm jzxe kbmi midd', // Your email password or app password
+            user: '', // Your email
+            pass: ' ', // Your email password or app password
         },
     });
 
     let info = await transporter.sendMail({
-        from: '"PCOS Predictor & Care App" <dwija1209@gmail.com>', // Sender address
+        from: '"PCOS Predictor & Care App" < >', // Sender address
         to: to,             // Receiver's email
         subject: subject,   // Subject line
         html: html,         // HTML body
