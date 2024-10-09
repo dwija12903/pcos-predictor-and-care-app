@@ -22,16 +22,7 @@ app.use(cors({
 }));
 
 // Connect to MongoDB
-mongoose.connect(mongodbUrl, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-  ssl: true,
-  sslValidate: true,
-  tlsAllowInvalidCertificates: false,
-  tlsAllowInvalidHostnames: false,
-  retryWrites: true,
-  w: 'majority'
-})
+mongoose.connect(mongodbUrl)
 .then(() => console.log('Connected to MongoDB'))
 .catch(err => console.error('MongoDB connection error:', err));
 
