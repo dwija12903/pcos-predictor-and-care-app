@@ -9,3 +9,5 @@ services:
         value: 18.x
       - key: PYTHON_VERSION
         value: 3.9.0
+      - key: MONGODB_URI
+        sync: false  # This allows you to set it manually in the Render dashboard
